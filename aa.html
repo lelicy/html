@@ -1,0 +1,81 @@
+ 
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STRICT KITCHEN｜Good Food Better Days</title>
+<style>
+:root{--red:#b72d26;--cream:#f7ead4;--paper:#fff5e2;--ink:#211916;--brown:#4b281e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,"Noto Sans TC",sans-serif}
+a{text-decoration:none;color:inherit}.nav{height:76px;padding:0 5%;display:flex;align-items:center;gap:35px;background:#fbf0dc;position:sticky;top:0;z-index:10;border-bottom:1px solid #ddd}
+.logo{font-weight:1000;font-size:24px;line-height:.8;color:var(--red);letter-spacing:-1px}.logo small{display:block;color:var(--ink);font-size:7px;letter-spacing:2px;margin-top:8px}
+.links{display:flex;gap:28px;margin:auto;font-weight:800;font-size:12px}.links small{font-weight:500}.order{background:var(--red);color:white;padding:13px 22px;border-radius:30px;font-weight:900}
+.hero{min-height:680px;background:linear-gradient(90deg,#21130e 0%,rgba(33,19,14,.72) 35%,rgba(33,19,14,.1)),url("hero.png") center/cover;display:flex;align-items:center;padding:80px 7%;color:white}
+.hero-copy{max-width:600px}.script{font:italic 25px Georgia,serif}.hero h1{font-size:clamp(60px,8vw,110px);line-height:.8;letter-spacing:-5px;text-transform:uppercase;margin:18px 0;font-weight:1000}.hero h1 span{display:block}.hero h1 span:nth-child(2){color:var(--cream)}.line{width:250px;height:8px;background:var(--red);transform:skew(-12deg);margin:25px 0}.hero p{font-size:20px;font-weight:800}.sub{font-size:14px!important;font-weight:500!important}.cta{display:inline-block;background:var(--red);color:white;padding:14px 24px;border-radius:30px;font-weight:900;margin-top:15px}
+section{padding:80px 6%}.wrap{max-width:1200px;margin:auto}.kicker{font:italic 24px Georgia,serif;color:var(--red)}h2{font-size:clamp(38px,5vw,64px);line-height:.9;margin:8px 0 12px;letter-spacing:-2px}.desc{color:#715e4d;font-weight:600}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:35px}.card{background:#fff8eb;box-shadow:0 10px 30px #4b281e18}.pic{height:240px;background:url("hero.png") center/cover}.card:nth-child(2) .pic{filter:hue-rotate(18deg)}.card:nth-child(3) .pic{filter:saturate(1.4) brightness(.8)}.card:nth-child(4) .pic{filter:hue-rotate(-20deg) brightness(1.1)}.card div:last-child{padding:18px}.card h3{margin:5px 0}.story{padding:0;display:grid;grid-template-columns:1fr 1fr}.story-img{min-height:500px;background:url("hero.png") 65%/cover}.story-copy{padding:70px 8%;display:flex;flex-direction:column;justify-content:center}.story-copy p{line-height:1.9;color:#705d4c}.outline{display:inline-block;border:1px solid var(--ink);padding:12px 20px;border-radius:30px;font-weight:900;margin-top:12px;align-self:flex-start}.promo{display:grid;grid-template-columns:1fr 1fr;background:var(--red);color:white;padding:0}.promo-copy{padding:70px 9%}.promo-img{min-height:360px;background:url("hero.png") center/cover}.values{padding:35px 6%;background:var(--paper)}.value-grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr)}.value{padding:18px 25px;border-right:1px solid #2223;font-weight:900}.value:last-child{border:0}.value b{display:block}.value small{color:#796655}
+footer{background:#211916;color:#eadbc5;padding:55px 6%}.foot{max-width:1200px;margin:auto;display:flex;justify-content:space-between;gap:30px}.foot a{display:block;color:#bda990;margin:8px 0;font-size:13px}.copy{border-top:1px solid #fff3;margin-top:35px;padding-top:18px;font-size:10px;color:#9f8c79}
+@media(max-width:850px){.links{display:none}.nav{padding:0 20px}.order{margin-left:auto}.hero{min-height:620px;padding:60px 25px}.cards{grid-template-columns:1fr 1fr}.story,.promo{grid-template-columns:1fr}.story-img{min-height:350px}.promo-img{order:-1}.value-grid{grid-template-columns:1fr 1fr}.value:nth-child(2){border:0}}
+@media(max-width:520px){section{padding:60px 20px}.hero h1{font-size:58px}.cards,.value-grid{grid-template-columns:1fr}.value{border-right:0;border-bottom:1px solid #2223}.foot{display:block}.story-copy{padding:55px 25px}}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a class="logo" href="#">STRICT<br>KITCHEN<small>GOOD FOOD BETTER DAYS</small></a>
+  <div class="links">
+    <a href="#menu">MENU<br><small>美味餐點</small></a>
+    <a href="#story">OUR STORY<br><small>品牌故事</small></a>
+    <a href="#quality">QUALITY<br><small>品質堅持</small></a>
+    <a href="#locations">LOCATIONS<br><small>門市據點</small></a>
+    <a href="#news">NEWS<br><small>最新消息</small></a>
+  </div>
+  <a class="order" href="#menu">ORDER NOW →</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-copy">
+    <div class="script">Good Food, Better Days</div>
+    <h1><span>Fresh</span><span>Fast</span><span>Delicious</span></h1>
+    <div class="line"></div>
+    <p>嚴格的是廚房，輕鬆的是你。</p>
+    <p class="sub">新鮮食材 × 快速製作 × 美味上桌</p>
+    <a class="cta" href="#menu">立即訂餐　→</a>
+  </div>
+</header>
+
+<section id="menu"><div class="wrap">
+  <div class="kicker">Our Menu</div><h2>GOOD FOOD FOR EVERY MOOD</h2><p class="desc">每一種心情，都有剛剛好的美味。</p>
+  <div class="cards">
+    <article class="card"><div class="pic"></div><div><h3>經典牛肉堡</h3><p>經典不敗，簡單卻讓人想再來一個。</p></div></article>
+    <article class="card"><div class="pic"></div><div><h3>黃金薯條</h3><p>外酥內嫩，趁熱吃最剛好。</p></div></article>
+    <article class="card"><div class="pic"></div><div><h3>酥脆雞塊</h3><p>一口太小，大大滿足。</p></div></article>
+    <article class="card"><div class="pic"></div><div><h3>特調飲品</h3><p>吃漢堡的快樂，少不了這一杯。</p></div></article>
+  </div>
+</div></section>
+
+<section class="story" id="story">
+  <div class="story-img"></div>
+  <div class="story-copy"><div class="kicker">Since Today</div><h2>A BRIGHTER<br>TOMORROW</h2><p>不只是速食，更是讓日子更好的美味。Strict Kitchen 相信，好食物能讓忙亂的日子變得更好。我們堅持新鮮食材、嚴格製作、快速上桌。</p><a class="outline" href="#">OUR STORY →</a></div>
+</section>
+
+<section class="promo" id="news">
+  <div class="promo-copy"><div class="kicker" style="color:#f6c7a5">Special Offer</div><h2>今天吃得開心<br>明天也會感謝自己。</h2><p>期間限定・美味加倍。新品與優惠不定期登場。</p><a class="cta" href="#menu">查看更多優惠 →</a></div>
+  <div class="promo-img"></div>
+</section>
+
+<section class="values" id="quality"><div class="value-grid">
+  <div class="value">🍔 <b>FRESH INGREDIENTS<small>新鮮食材</small></b></div>
+  <div class="value">◷ <b>FAST SERVICE<small>快速製作</small></b></div>
+  <div class="value">♨ <b>QUALITY KITCHEN<small>嚴格把關</small></b></div>
+  <div class="value">♡ <b>BETTER DAYS<small>更好的每一天</small></b></div>
+</div></section>
+
+<footer id="locations"><div class="foot">
+  <div><div class="logo" style="color:#fff">STRICT<br>KITCHEN<small style="color:#bda990">GOOD FOOD BETTER DAYS</small></div><p>嚴格的是廚房，輕鬆的是你。</p></div>
+  <div><b>EXPLORE</b><a href="#menu">美味餐點</a><a href="#story">品牌故事</a><a href="#quality">品質堅持</a><a href="#news">最新消息</a></div>
+  <div><b>FOLLOW US</b><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+</div><div class="copy">© 2026 STRICT KITCHEN. ALL RIGHTS RESERVED.</div></footer>
+</body>
+</html>
+index.html
+HTML
